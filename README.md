@@ -6,13 +6,7 @@
 ## Install
 
 ```
-yarn add --dev simplify-list
-```
-
-Or
-
-```
-npm i --save-dev simplify-list -g
+npm isimplify-list -g
 ```
 
 ## Usage
