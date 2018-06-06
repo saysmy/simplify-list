@@ -6,7 +6,7 @@
 ## Install
 
 ```
-npm isimplify-list -g
+npm i simplify-list -g
 ```
 
 ## Usage
