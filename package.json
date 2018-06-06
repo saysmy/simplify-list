@@ -1,0 +1,26 @@
+{
+  "name": "simplify",
+  "version": "1.0.0",
+  "description": "Remove duplicate lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "simplify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saysmy/simplifyList.git"
+  },
+  "keywords": [
+    "simplify",
+    "list",
+    "duplicate",
+    "remove"
+  ],
+  "author": "smy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saysmy/simplifyList/issues"
+  },
+  "homepage": "https://github.com/saysmy/simplifyList#readme",
+  "bin": "index.js"
+}
