@@ -1,16 +1,40 @@
-# simplifyList
+# Remove duplicate lists
 
-## Remove duplicate lists
+1. Remove spaces and newlines.
+2. Remove duplicate lists.
 
-list.txt为待处理列表，处理成功后，会将去重后的列表重新写入list.txt
+## Install
 
 ```
-node index.js
+yarn add --dev simplify-list
 ```
 
-或者
-先执行``node link``
-之后就可以直接执行
 ```
-simplify
+npm i --save-dev simplify-list -g
+```
+
+## Usage
+
+```
+simplify-list yourfile.txt
+```
+
+### yourfile.txt
+
+```
+baidu/arb/controllers/NoticeController.php
+baidu/arb/controllers/NoticeController.php
+static_baidu/js/income/incomeDetail.js
+
+static_baidu/js/income/incomeDetail.js
+			baidu/arb/views/income/exchangeCashHistory.php
+baidu/arb/views/income/exchangeCashHistory.php
+```
+
+### After simplify
+
+```
+baidu/arb/controllers/NoticeController.php
+static_baidu/js/income/incomeDetail.js
+baidu/arb/views/income/exchangeCashHistory.php
 ```

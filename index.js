@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const file = './list.txt';
+
+let file = process.argv[2] ? process.argv[2] : 'list.txt';
 
 console.log('Start reading the file...')
 fs.readFile(file, function(err, obj){
@@ -39,7 +40,7 @@ fs.readFile(file, function(err, obj){
 	console.log(`Done in ${run_time}ms`);
 
 	console.log('-----------------------');
-	console.log(`Num`);
+	console.log(`Num:`);
 	console.log(`original: ${total_len}`);
 	console.log(`remove: ${remove_len}`);
 	console.log('-----------------------');

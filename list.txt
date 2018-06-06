@@ -1,19 +1,7 @@
-cblive/arb/views/income/exchangeCashFill.php
-cblive/arb/controllers/NoticeController.php
-cblive/arb/views/recharge/result.php
-static_cblive/css/recharge.css
-static_cblive/js/income/incomeDetail.js
-static_cblive/js/recharge/rechargeHistory.js
-static_cblive/maps/js/income/incomeDetail.js.map
-static_cblive/maps/js/income/exchangeCashSubmit.js.map
-static_cblive/src/arb/mobile/js/income/exchangeCashSubmit.js
-static_cblive/src/arb/mobile/js/income/exchangeCashSubmit.js
-static_cblive/src/arb/mobile/js/income/exchangeCashSubmit.js
-static_cblive/src/arb/mobile/js/income/exchangeCashSubmit.js
-static_cblive/src/arb/mobile/js/income/exchangeCashSubmit.js
-cblive/arb/views/income/exchangeCashHistory.php
-cblive/arb/views/income/exchangeCashHistory.php
-cblive/arb/views/income/exchangeCashHistory.php
-cblive/arb/views/income/exchangeCashHistory.php
-cblive/arb/views/income/exchangeCashHistory.php
-cblive/arb/views/income/exchangeCashHistory.php
+baidu/arb/controllers/NoticeController.php
+baidu/arb/controllers/NoticeController.php
+static_baidu/js/income/incomeDetail.js
+
+static_baidu/js/income/incomeDetail.js
+			baidu/arb/views/income/exchangeCashHistory.php
+baidu/arb/views/income/exchangeCashHistory.php
