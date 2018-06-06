@@ -9,6 +9,8 @@
 yarn add --dev simplify-list
 ```
 
+Or
+
 ```
 npm i --save-dev simplify-list -g
 ```
@@ -19,7 +21,7 @@ npm i --save-dev simplify-list -g
 simplify-list yourfile.txt
 ```
 
-### yourfile.txt
+#### yourfile.txt
 
 ```
 baidu/arb/controllers/NoticeController.php
@@ -31,7 +33,7 @@ static_baidu/js/income/incomeDetail.js
 baidu/arb/views/income/exchangeCashHistory.php
 ```
 
-### After simplify
+#### After simplify
 
 ```
 baidu/arb/controllers/NoticeController.php
